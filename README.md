@@ -1,13 +1,6 @@
 # passport-strategy
 
-[![Build](https://travis-ci.org/jaredhanson/passport-strategy.png)](https://travis-ci.org/jaredhanson/passport-strategy)
-[![Coverage](https://coveralls.io/repos/jaredhanson/passport-strategy/badge.png)](https://coveralls.io/r/jaredhanson/passport-strategy)
-[![Quality](https://codeclimate.com/github/jaredhanson/passport-strategy.png)](https://codeclimate.com/github/jaredhanson/passport-strategy)
-[![Dependencies](https://david-dm.org/jaredhanson/passport-strategy.png)](https://david-dm.org/jaredhanson/passport-strategy)
-[![Tips](http://img.shields.io/gittip/jaredhanson.png)](https://www.gittip.com/jaredhanson/)
-
-
-An abstract class implementing [Passport](http://passportjs.org/)'s strategy
+An ES6 Class implementing [Passport](http://passportjs.org/)'s strategy
 API.
 
 ## Install
@@ -137,24 +130,10 @@ user directory is not available.
 
 
 
-## Related Modules
-
-- [chai-passport-strategy](https://github.com/jaredhanson/chai-passport-strategy) — helpers for testing strategies with the Chai assertion library
-
-## Tests
-
-    $ npm install
-    $ npm test
-
 ## Credits
 
-  - [Jared Hanson](http://github.com/jaredhanson)
+  - original author: [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2014 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-strategy'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-strategy.svg' /></a>
-
